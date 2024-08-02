@@ -5,5 +5,8 @@
 }
 
 .visited{
-    background-color: rgba(247, 223, 188, 0.96);
+    background-color: rgba(241, 224, 200, 0.96);
+}
+.countries{
+    color: aqua;
 }

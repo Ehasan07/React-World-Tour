@@ -1,5 +1,5 @@
 .country{
-    border: 5px solid rgb(37, 53, 55);
+    border: 5px solid aqua;
     margin: 15px;
     padding: 15px;
     border-radius: 15px;
@@ -7,5 +7,6 @@
 }
 
 .button{
-    border: 2px solid skyblue;
+    border: 1px solid skyblue;
+    
 }

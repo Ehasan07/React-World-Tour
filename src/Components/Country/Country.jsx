@@ -10,14 +10,14 @@ const Country = ({country}) => {
    }
 
    return (
-        <div className='country'>
+        <div className={`country ${ visited && 'visited'}`}>
             <h3>Name : {name?.common}</h3>
             <img src={flags.png} alt=''/>
             <p>population : {population}</p>
             <p>area : {area}</p>
             <p>region : {region}</p>
             <p><small>Code :{cca3} </small></p>
-            <button onClick={handleVistied}>{ visited ? 'Visited' : 'Going' }
+            <button className='button' onClick={handleVistied}>{ visited ? 'Visited' : 'Going' }
             </button>
             {visited ?   '  I have visited this country.' :' I want to visit. '}
         </div>
